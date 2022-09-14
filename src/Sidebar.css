@@ -1,0 +1,395 @@
+body::-webkit-scrollbar {
+    display: none;
+   
+  }
+  /*Scroll bar remove */
+   h6,
+  .h6,
+  h5,
+  .h5,
+  h4,
+  .h4,
+  h3,
+  .h3,
+  h2,
+  .h2,
+  h1,
+  .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: 
+    'Saira Extra Condensed', 
+    'Segoe UI', 
+    'Helvetica Neue',
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol',
+    'Noto Color Emoji';
+    
+    color: #343a40;
+  }
+  
+   
+   @media (min-width: 1200px) {
+    h1,
+    .h1 {
+      font-size: 6rem;
+    }
+  }
+  
+  
+  @media (min-width: 1200px) {
+    h2,
+    .h2 {
+      font-size: 3.5rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    h3,
+    .h3 {
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    h4,
+    .h4 {
+      font-size: 1.7rem;
+      
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    h6,
+    .h6{
+      font-size: .9rem;
+      
+    }
+  }
+  @media (min-width: 1200px) {
+    h5,
+    .h5{
+      font-size: 1rem;
+      
+    }
+  }
+  a:hover {
+    color: #013c52fb;
+  }
+  
+  
+    
+  
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5
+  {
+    text-transform: uppercase;
+  }
+  
+  
+  
+  
+
+
+
+  
+  
+  
+ 
+  
+  
+  
+  
+ 
+  
+ 
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+  
+  .con {
+    border-radius: 6px;
+    position: relative;
+    height: 440px;
+    width: 350px;
+    overflow: hidden;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.753);
+    transition: box-shadow 0.3s ease-out;
+  }
+  
+  .con:hover {
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .img-con {
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease-out;
+    z-index: 2;
+  }
+  
+  .img-con:hover {
+    cursor: pointer;
+  }
+  
+  .con:hover .img-con {
+    transform: translateY(-100px);
+  }
+  
+  .img-con > img {
+    height: 100%;
+    width: 100%;
+  
+    transition: opacity 0.3s ease-out;
+  }
+  
+  .con:hover > .img-con > img {
+    opacity: 0.5;
+  }
+  
+ 
+  
+  .user-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.992);
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
+
+
+
+
+
+  
+ .aa{
+  color: #013d52 
+}
+
+.clg{
+  padding-left: 150px;
+  color:red
+}
+
+
+.bokk{
+  margin-left: 190px;
+}
+
+  .header1 {
+    background-image: url(/public/gallery/BACKALAB.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: top;
+      padding: 25px;
+     
+    }
+    .b12435{
+      background-color: #fff;
+      position:absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      margin-top: 50%;
+    }
+    .music{
+      margin-left: 200px;
+      margin-top: 5%;
+    }
+   
+    .b1243567{
+      background-color: #fff;
+      position:absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      
+      margin-top: 0%;
+      margin-right: 30%;
+    }
+   
+
+    .contact{
+      background-color: #fff;
+      position:relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+     height: 90%;
+      margin-left: 6px;
+      padding-top: 80px;
+      
+    }
+    .contactskill{
+      background-color: #fff;
+      position:relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+     height: 90%;
+      margin-left: 25px;
+      padding-top: 50px;
+      
+      
+    }
+    .contacts{
+      background-color: #fff;
+      position:relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      margin-top: 63px;
+      padding-top: 80px;
+      padding-left: 60px;
+    }
+    .backg{
+      background-color: #fff;
+      position:absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      
+      margin-top: 1600px;
+      margin-right: 30%;
+    }
+    .contactmusic{
+     
+      position:absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      margin-top: -5px;
+      padding-top: 0px;
+     
+    }
+    .contactresume{
+      background-color: #fff;
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      
+      margin-top: 0px;
+      padding-top: 30px;
+      padding-left: 10px;
+    }
+    .contactfood{
+      background-color: #fff;
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1000px;
+      margin-top: 3px;
+      padding-top: 500px;
+      padding-left: 60px;
+    }
+    
+    .hide {
+      display: none;
+      margin-left: 50px;
+    }
+        
+    .myDIV:hover + .hide {
+      display: block;
+      color: #08aeea;
+      font-weight: 1000;
+    }
+    .contactfeed{
+      background-image: url(/public/gallery/PLANT.jpeg);
+      
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  margin-top: 300;
+      position: fixed;
+      background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+   
+      
+      opacity: none;
+    }
+
+    a.active{
+      background-color:#dee6ea58;
+      display: inline-flex;
+      width:70;
+      text-decoration: none;
+      border-radius: 4px;
+     
+      }
+      
+
+      .contactfav{
+        background-image: url(/public/gallery/backg.webp);
+        
+        
+        width: 100%;
+        height: 100%;
+    margin-top: 300;
+        position: fixed;
+        background-repeat: no-repeat;
+      padding-top: 90px;
+      background-size: 100% 100%;
+     
+        top: 0;
+        left: 0;
+        opacity: none;
+      
+        }
+
+        .contactmee{
+          background-image: url(/public/gallery/p0.jpeg);
+          
+          
+          width: 100%;
+          height: 100%;
+     
+          position: fixed;
+          background-repeat: no-repeat;
+        padding-top: 170px;
+        background-size: 100% 100%;
+      
+          top: 0;
+          left: 0;
+          opacity: none;
+        
+          }
+  
+
+
+       
+        
+
+
+
+
+
+
+
+
+
+       
